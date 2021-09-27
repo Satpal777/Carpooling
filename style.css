@@ -1,0 +1,10 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.fas,.far {
+    color: white;
+    font-size: xx-large;
+    margin-right: 20px;
+}
