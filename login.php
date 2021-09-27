@@ -17,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         session_start();
         $_SESSION['loggedin'] = true;
         $_SESSION['email'] = $email;
-        header("location: home.php");
+        header("location: /index.php");
       }
     }
 
