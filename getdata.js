@@ -9,8 +9,7 @@ xhr.open("GET", urlState, true);
 xhr.setRequestHeader("Accept","application/json");
 xhr.setRequestHeader(
   "Authorization",
-  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfZW1haWwiOiJjb2duZXRhdHJ1QGJpeWFjLmNvbSIsImFwaV90b2tlbiI6IkFlMW9odk82VVJ4amplc0FoSlhWOFZmNXNEM0FjU01OdFdjYjR2dGJxQVdnYVFIdVgyaWNzTUtBY0RUUjg2elcyS2MifSwiZXhwIjoxNjMyNjQwMzQyfQ.VdzHKKsrjgdpfof-GwT_dyOEWNpy7TSLk7eJx8-dtTA" 
-);
+  "Bearer key");
 xhr.onreadystatechange = function () {
 
   if (this.readyState == 4 && this.status == 200) {
@@ -33,7 +32,7 @@ state.addEventListener("change",()=>{
     xhr.setRequestHeader("Accept", "application/json");
     xhr.setRequestHeader(
     "Authorization",
-      "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfZW1haWwiOiJjb2duZXRhdHJ1QGJpeWFjLmNvbSIsImFwaV90b2tlbiI6IkFlMW9odk82VVJ4amplc0FoSlhWOFZmNXNEM0FjU01OdFdjYjR2dGJxQVdnYVFIdVgyaWNzTUtBY0RUUjg2elcyS2MifSwiZXhwIjoxNjMyNjQwMzQyfQ.VdzHKKsrjgdpfof-GwT_dyOEWNpy7TSLk7eJx8-dtTA"
+      "Bearer key"
     );
     xhr.onreadystatechange = function () {
     
